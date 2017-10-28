@@ -14,7 +14,7 @@ html body
 height: 100%;
 overflow: scroll;
 font-family: 'Roboto', sans-serif;	
-background-image: url("img/hypnotize.png");
+background-image: url("../images/hypnotize.png");
 }
 body
 {
