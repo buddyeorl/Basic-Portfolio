@@ -1,13 +1,12 @@
+
+/*=====================TAG DESIGNS START HERE==========================*/
+
+/* This line will make all box like elements to keep the given size even if margins or paddings are added	*/
 *{
 		box-sizing: border-box;
 }
 
-/*	*/
-p
-{
-	/* display inline block none	*/
-	display: block;
-}
+/*	fonts height and background image for the html and body tags*/
 
 html body
 {
@@ -16,53 +15,29 @@ overflow: scroll;
 font-family: 'Roboto', sans-serif;	
 background-image: url("../images/hypnotize.png");
 }
+
+/*	body margin set to display a full width header and footer*/
 body
 {
 	margin: 0;
 
 }
 
-
-
-
-/*	All div will have format set below*/
-.main-container
+/* redundant font roboto in the fonts below	*/
+h1, h2, h3, h4, p
 {
-
-	border-style: none;
-	text-align: center;
-	margin-left: 15%;
-	margin-right: 15%;
-	margin-top: 120px;
-	margin-bottom: 20px;
-	max-width: 100%;
-	min-height: 900px;
-	overflow: auto;
-
-}
-
-.content
-{
-
-	width: 60%;
 	margin: auto;
-	box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2), 2px 6px 5px 2px rgba(0,0,0,0.19);
-	text-align: center;
-	vertical-align: middle; 
-
+	font-family: 'Roboto', sans-serif;
 }
 
-
-
-nav.header
+/* tag p will be displayed as a block*/
+p
 {
-	margin-left: 15%;
-	margin-right: 15%;	
-	float: right;
-	margin-top: 25px;
-
+	/* display inline block none	*/
+	display: block;
 }
 
+/*	the code below are set for the navigation bar colors margins etc*/
 nav a{
 	color: white;
 	text-decoration: none;
@@ -76,44 +51,7 @@ nav a{
 
 }
 
-
-
-/*=====================IDS START HERE==========================*/
-/*	this id will have the format set below*/
-#mystyle {
-	float: left;
-	width: 100%;
-	padding: 7%;
-	padding-right: 7%;
-	padding-left: 7%;
-	text-align: center;
-	overflow: scroll;
-}
-
-
-/*=====================CLASSES START HERE========================*/
-/*Set Html and body to start with a margin at position 0 to make header use all screen area*/
-
-
-
-
-.masthead 
-{
-	position: fixed;
-	top: 0;
-    left: 0;
-    right: 0;
-	width: 100%;
-	height: 100px;
-	background: #333;
-	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2), 0 3px 2px 0 rgba(0,0,0,0.19);
-	font-family: 'Roboto', sans-serif;
-	overflow: auto;
-	z-index: 99;
-
-}
-
-
+/*footer will label will have a relative position in the main-container	*/
 footer
 {
 	position: relative;
@@ -127,111 +65,10 @@ footer
 	text-align: center;
 	max-width: 100%;
 }
-h1.title
-{
-	font-size: 60px;
-	line-height: 150%;
-	text-decoration: underline;
-	vertical-align: middle; 
-}
-h1, h2, h3, h4, p
-{
-	margin: auto;
-	font-family: 'Roboto', sans-serif;
-}
-
-.headerh2
-{
-	width: 100%;
-	float: left;
-	background: #f7f8fa;
-	margin-left: 0px;
-	margin-top: 0px;
-	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 2px 3px 0 rgba(0,0,0,0.19);	
-	text-align: center;
-}
 
 
 
-
-.left
-{
-	margin-left: 0px;
-	margin-right: 0px;
-	float: left;
-	position:relative; 
-	width: 50%;
-}
-.right
-{
-	margin-left: 0px;
-	margin-right: 0px;
-	float: left;
-	position:relative; 
-	width: 50%;
-}
-
-.footersn
-{
-	position: relative;
-    bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	width: 100%;
-	height: 50px;
-	background: #333;
-	max-width: 100%;
-}
-
-.snimages
-{
-	margin-top: 5px;
-	width: 35px;
-	height: 35px;
-}
-
-.projimages
-{
-
-}
-
-.aboutimg
-{
-	width: 50%;
-	height: 50%;
-}
-
-.formA
-{
-	margin-top: 15px;
-	margin-bottom: 15px;
-	float: left;
-	width: 47%;
-	height: 350px;
-	max-width: 47%;
-	max-height: 500px;
-	margin-left: 0px;
-	margin-right: 0px;
-	box-shadow: 0 4px 0px 0 rgba(0,0,0,0.2), 0 6px 5px 0 rgba(0,0,0,0.19);
-	overflow: scroll;
-}
-
-.formB
-{
-	margin-top: 15px;
-	margin-bottom: 15px;
-	float: right;
-	width: 47%;
-	height: 350px;
-	max-height: 500px;
-	max-width: 47%;
-	margin-left: 0px;
-	margin-right: 0px;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 5px 0 rgba(0,0,0,0.19);
-	overflow: scroll;
-}
-
-
+/*	the Contact form design is set below */
 ul
 {
 	vertical-align: middle; 	
@@ -271,5 +108,199 @@ textarea
 	vertical-align: middle; 
 
 }
+
+
+
+/*=====================IDS START HERE==========================*/
+/*	this id will have the format set below. For future use, not implemented in this assigment */
+#mystyle {
+	float: left;
+	width: 100%;
+	padding: 7%;
+	padding-right: 7%;
+	padding-left: 7%;
+	text-align: center;
+	overflow: scroll;
+}
+
+
+/*=====================CLASSES START HERE========================*/
+/*Set Html and body to start with a margin at position 0 to make header use all screen area*/
+
+
+
+
+/*	header sticky position is set below*/
+.masthead 
+{
+	position: fixed;
+	top: 0;
+    left: 0;
+    right: 0;
+	width: 100%;
+	height: 100px;
+	background: #333;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2), 0 3px 2px 0 rgba(0,0,0,0.19);
+	font-family: 'Roboto', sans-serif;
+	overflow: auto;
+	z-index: 99;
+
+}
+
+/*	header class margins are set here */
+.header
+{
+	margin-left: 15%;
+	margin-right: 15%;	
+	float: right;
+	margin-top: 25px;
+
+}
+
+.headerh2
+{
+	width: 100%;
+	float: left;
+	background: #f7f8fa;
+	margin-left: 0px;
+	margin-top: 0px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 2px 3px 0 rgba(0,0,0,0.19);	
+	text-align: center;
+}
+
+
+
+/*	All divs inside this class will have format set below*/
+.main-container
+{
+
+	border-style: none;
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 120px;
+	margin-bottom: 20px;
+	max-width: 100%;
+	min-height: 900px;
+	overflow: auto;
+
+}
+
+
+/*	Content shadow borders are set below*/
+.content
+{
+	width: 60%;
+	min-width: 280px;
+	min-height: 250px;
+	margin: auto;
+	box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2), 2px 6px 5px 2px rgba(0,0,0,0.19);
+	text-align: center;
+	vertical-align: middle; 
+
+}
+
+/* title class used on H1 tag is defined here*/
+
+.title
+{
+	font-size: 60px;
+	line-height: 150%;
+	text-decoration: underline;
+	vertical-align: middle; 
+}
+
+
+
+
+
+/* Divs used in portfolio page are set here, not used, probably will be used in the future*/
+.left
+{
+	margin-left: 0px;
+	margin-right: 0px;
+	float: left;
+	position:relative; 
+	width: 50%;
+}
+.right
+{
+	margin-left: 0px;
+	margin-right: 0px;
+	float: left;
+	position:relative; 
+	width: 50%;
+}
+
+
+/* Social Icons are inside this footer which is above the lowest footer*/
+.footersn
+{
+	position: relative;
+    bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+	height: 50px;
+	background: #333;
+	max-width: 100%;
+}
+
+/*Social Icons size is set below*/
+.snimages
+{
+	margin-top: 5px;
+	width: 35px;
+	height: 35px;
+}
+
+/*portfolio images size is set below*/
+.projimages
+{
+	width: 50%;
+	max-width: 300px;
+}
+
+/*About page image size is set below in %*/
+.aboutimg
+{
+	width: 50%;
+	height: 50%;
+}
+
+/* divs floating left in the portfolio page are set below*/
+.formA
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	float: left;
+	width: 47%;
+	height: 350px;
+	max-width: 47%;
+	max-height: 500px;
+	margin-left: 0px;
+	margin-right: 0px;
+	box-shadow: 0 4px 0px 0 rgba(0,0,0,0.2), 0 6px 5px 0 rgba(0,0,0,0.19);
+	overflow: scroll;
+}
+
+
+/* NOT USED IN THIS PAGE. divs floating right in the portfolio page are set below*/
+.formB
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	float: right;
+	width: 47%;
+	height: 350px;
+	max-height: 500px;
+	max-width: 47%;
+	margin-left: 0px;
+	margin-right: 0px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 5px 0 rgba(0,0,0,0.19);
+	overflow: scroll;
+}
+
+
 
 
