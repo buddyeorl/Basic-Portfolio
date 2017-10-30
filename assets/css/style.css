@@ -27,6 +27,8 @@ body
 h1, h2, h3, h4, p
 {
 	margin: auto;
+	margin-left: 2%;
+	margin-right: 2%;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -164,7 +166,7 @@ textarea
 	background: #f7f8fa;
 	margin-left: 0px;
 	margin-top: 0px;
-	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 2px 3px 0 rgba(0,0,0,0.19);	
+	box-shadow: 0 4px 3px 0px rgba(245,245,245,0.2), 0 4px 3px 0px rgba(245,245,245,0.19), 0 -1px 1px 0px rgba(245,245,245,0.19);	
 	text-align: center;
 }
 
@@ -184,6 +186,7 @@ textarea
 	min-height: 790px;
 	overflow: auto;
 
+
 }
 
 
@@ -195,7 +198,8 @@ textarea
 	min-height: 250px;
 	margin: auto;
 	margin-bottom: 10px;
-	box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2), 2px 6px 5px 2px rgba(0,0,0,0.19);
+	margin-top: 5px;
+	box-shadow: 6px 6px 8px 2px rgba(0,0,0,0.2), -6px 6px 8px 2px rgba(0,0,0,0.19);
 	text-align: center;
 	vertical-align: middle; 
 
@@ -209,9 +213,15 @@ textarea
 	line-height: 150%;
 	text-decoration: underline;
 	vertical-align: middle; 
+	text-align: center;
 }
 
-
+/* justify text tag h3 inside content*/
+.h3justify
+{
+	text-align: justify;
+	padding: 2%;
+}
 
 
 
@@ -267,6 +277,7 @@ textarea
 {
 	width: 50%;
 	height: 50%;
+	box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.2), -2px 2px 4px 2px rgba(0,0,0,0.19);
 }
 
 /* divs floating left in the portfolio page are set below*/
